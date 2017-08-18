@@ -6,9 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium import webdriver
 
-CUSTOMER="IT23020"
-USER="ALBERTINID02"
-PASSWORD="milano"
+
 
 def init_driver():
     driver = webdriver.Chrome()
